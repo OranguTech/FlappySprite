@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c2e359580f34b918a3cc5bbb3f9178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upwardForceMultiplier: 400
+  _upwardForceMultiplier: 150
 --- !u!50 &2097226461
 Rigidbody2D:
   serializedVersion: 4
