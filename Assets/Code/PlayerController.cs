@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         {
             PlayerBody.velocity = Vector3.zero;
             //Backflip!
-            PlayerBody.MoveRotation(PlayerBody.rotation+10);
+            PlayerBody.MoveRotation(PlayerBody.rotation + 10);
 
             //Face one direction only
             //PlayerBody.MoveRotation(10);
