@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     {
 
         Rigidbody2D PlayerBody = GetComponent<Rigidbody2D>();
-        Debug.Log(PlayerBody.velocity.GetType());
+        //Debug.Log(PlayerBody.velocity.GetType());
         bool ActionButtonPressed = Input.GetButtonDown("Fire1");
         if (ActionButtonPressed.Equals(true))
         {
