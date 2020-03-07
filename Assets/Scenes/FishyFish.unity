@@ -315,7 +315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276177432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.36, z: 0}
+  m_LocalPosition: {x: 0, y: 2.07, z: 0}
   m_LocalScale: {x: 10, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -374,7 +374,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.4772453
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -383,7 +383,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -436,10 +436,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 823750802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f29ac1420bc74c0a83a9e5a04ad4e99, type: 3}
+  m_Script: {fileID: 11500000, guid: 38ca9f88f081b4266a052511aac2e87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ObstacleInstance: {fileID: 756057295}
+  ObstacleGenerateTime: 2
 --- !u!4 &823750804
 Transform:
   m_ObjectHideFlags: 0

@@ -636,10 +636,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 940abb8b-4648-4ad4-955b-0389ec16d24a
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: FlappySprite
+  organizationId: scandalon_noreallyitsme
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

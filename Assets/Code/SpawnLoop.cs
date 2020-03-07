@@ -6,8 +6,19 @@ public class SpawnLoop : MonoBehaviour
 {
 
     public GameObject ObstacleInstance;
+    [SerializeField] private float ObstacleGenerateTime = 2;
 
 
+
+    private IEnumerator GenerateObstacles()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(ObstacleGenerateTime); // wait for ? long
+            // do things
+            Instantiate(ObstacleInstance, new Vector3(7, 0, 0), Quaternion.identity);
+        }
+    }
 
 
 
@@ -15,29 +26,11 @@ public class SpawnLoop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        //Instantiate(ObstacleInstance, new Vector3(7, 0, 0), Quaternion.identity);
         Debug.Log("TheBeastAwakens");
         StartCoroutine("GenerateObstacles");
     }
 
 
-    private IEnumerator GenerateObstacles()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(2f); // wait half a second
-            // do things
-            Instantiate(ObstacleInstance, new Vector3(7, 0, 0), Quaternion.identity);
-        }
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
 
 }
